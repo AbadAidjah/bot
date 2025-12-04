@@ -13,6 +13,7 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir "numpy<2" transformers datasets accelerate peft
 
 COPY train.py .
+COPY cs_data.json .
 
 # Use unbuffered Python output so logs show in real-time
 ENV PYTHONUNBUFFERED=1
