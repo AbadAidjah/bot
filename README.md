@@ -5,7 +5,7 @@ A REST API for text generation using TinyLlama. Runs locally on your machine.
 ## Run
 
 ```bash
-docker compose up -d
+docker compose up -d --build
 ```
 
 ## Test
