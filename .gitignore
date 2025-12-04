@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# HuggingFace cache (large model files)
+.cache/
+huggingface/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+checkpoints/
+outputs/
+runs/
+wandb/
+
+# Data files
+*.csv
+*.json
+!package.json
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
